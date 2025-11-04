@@ -4,6 +4,9 @@ Esse repositório apresenta a versão 1 do protótipo criado pelos alunos Chandr
 # Acesso
 O aplicativo está publicado em versão de teste para a comunidade e pode ser acessado aqui: https://prototipo-ia-inex.streamlit.app/
 
+# Formulário de avaliação
+https://forms.gle/TLxNHNDqkEmcaN327
+
 # Funcionalidades Principais
 
 Este não é um chatbot de conversação genérico. É uma aplicação de RAG (Retrieval-Augmented Generation) com um propósito específico.
@@ -44,5 +47,10 @@ Feedparser: Para ler e analisar os feeds RSS.
 
 Streamlit Community Cloud: Para a publicação e hospedagem gratuita do aplicativo.
 
-GitHub: Para controle de versão e deploy (CI/CD).
+# Contexto e Evolução do Projeto
 
+## Ideia inicial
+
+Este protótipo nasceu para resolver um desafio central identificado pela startup INEX: a dificuldade que estudantes e pesquisadores enfrentam para encontrar oportunidades acadêmicas (bolsas, cursos, editais), que são vastas, mas muito descentralizadas.
+
+O briefing inicial do projeto explorou diversas abordagens, como a integração direta com o WhatsApp, o uso de web scraping focado no LinkedIn, um recorte geográfico para o Rio de Janeiro e a implementação de plataformas de NLP como Rasa/Dialogflow. No entanto, para atender às restrições críticas de baixo custo, manutenção zero e rapidez na publicação (requisitos fundamentais da startup, o projeto final evoluiu para uma arquitetura mais moderna e robusta: a solução entregue é um aplicativo Streamlit que implementa um padrão RAG (Retrieval-Augmented Generation) puro. Em vez de web scraping (que é instável) ou plataformas complexas (como Rasa), o protótipo final utiliza um LLM (Google Gemini) "trancado" para ler apenas de um conjunto de fontes de dados em tempo real (22 Feeds RSS). Esta abordagem garante que as respostas sejam sempre atuais, baseadas em fontes concretas e livres de "alucinações", ao mesmo tempo que permite a publicação gratuita via Streamlit Cloud. 
