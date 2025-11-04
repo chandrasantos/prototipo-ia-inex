@@ -1,4 +1,4 @@
-# Protótipo INEX: Chatbot de Oportunidades Acadêmicas (IA Generativa)
+# Protótipo INEX: Chatbot de Oportunidades Acadêmicas (Modelo de IA Generativa: gemini-2.0-flash)
 Esse repositório apresenta a versão 1 do protótipo criado na disciplina PROJETO INTEGRADOR DE CIÊNCIA DOS DADOS I-T01-2025-2, do curso de graduação em Ciência dos Dados da Universidade Federal do Mato Grosso do Sul (UFMS). O objetivo da ferramenta é atuar como um assistente de IA para a startup "INEX", ajudando usuários a encontrar oportunidades acadêmicas (mestrado, doutorado, extensão, por exemplo) no Brasil. 
 
 # Acesso
