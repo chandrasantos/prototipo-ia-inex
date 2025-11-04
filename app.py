@@ -72,7 +72,7 @@ def buscar_oportunidades_rss(todas_as_entradas_cacheadas, palavras_chave):
             )
             
     if not oportunidades_encontradas:
-        return "Nenhuma oportunidade relevante encontrada nos feeds RSS monitorados."
+        return "Infelizmente, com as palavras-chaves inseridas eu não encontrei nenhuma oportunidade relevante nos feeds RSS monitorados. Você quer tentar de novo? Eu sou uma IA que monitora o conteúdo disponível na internet usando o Google Alertas. Pode ser que não tenha de fato nenhuma oportunidade aberta com os filtros que você aplicou. Ou pode ter sido a forma como você escreveu o pedido para mim. Em vez de escrever 'extensão universitária em marketing', escreva 'extensão universitária marketing'. Essa é a forma como eu vou consultar as informações. Digite novamente."
         
     print(f"Encontradas {len(oportunidades_encontradas)} oportunidades.")
     return "\n".join(oportunidades_encontradas)
@@ -106,7 +106,7 @@ for role, message in st.session_state.chat_history:
     st.chat_message(role).write(message)
 
 # Input do Usuário (Seu código original)
-user_message = st.chat_input("Type your message...")
+user_message = st.chat_input("Escreva as palavras-chave para encontrar oportunidades acadêmicas. Dica: em vez de digitar 'mestrado em matemática', escreva 'mestrado matemática'..")
 
 # --- LÓGICA PRINCIPAL (Original + Injeção de RAG) ---
 if user_message:
