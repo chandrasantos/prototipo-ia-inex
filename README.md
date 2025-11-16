@@ -82,10 +82,8 @@ Assim, a solução final se caracteriza por ser um protótipo funcional, confiá
 
 Foi realizada, por fim, uma nova reunião com a Inex, para entrega da solução, demonstração e passagem de conhecimento.
 
-# Proposta da disciplina 
 
-
-# Proposta da disciplina
+# Proposta da disciplina PROJETO INTEGRADOR DE CIÊNCIA DOS DADOS I-T01-2025-2
 ## Ementa
 Desenvolvimento de Ações de Extensão. Resolução de problemas. Levantamento de requisitos (Visita técnica). Modelagem. Banco de Dados. Desenvolvimento de aplicações Web/Desktop (Prática Profissional Supervisionada). Controle de Versão.
  
