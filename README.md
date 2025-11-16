@@ -57,7 +57,7 @@ No entanto, para atender às restrições críticas de baixo custo, manutenção
 
 Em vez de web scraping (que é instável) ou plataformas complexas (como Rasa), o protótipo final utiliza um LLM (Google Gemini) "trancado" para ler apenas de um conjunto de fontes de dados em tempo real (22 Feeds RSS). Esta abordagem garante que as respostas sejam sempre atuais, baseadas em fontes concretas e livres de "alucinações", ao mesmo tempo que permite a publicação gratuita via Streamlit Cloud. 
 
-# Resultados: Solução Final
+## Resultados: Solução Final
 A solução final desenvolvida pelo grupo foi um chatbot baseado no modelo Gemini, integrado ao Google Alertas, projetado para identificar e disponibilizar oportunidades acadêmicas de maneira automática e confiável. A escolha dessa arquitetura se deu por dois motivos principais: a necessidade de reduzir o risco de alucinações por parte do modelo de linguagem e a busca por uma solução sustentável e de baixo custo, alinhada às restrições da startup parceira Inex.
 
 Durante o processo de implementação, a ferramenta foi configurada para monitorar alertas do Google vinculados a palavras-chave específicas relacionadas a pesquisa, bolsas, mestrado, doutorado e extensão universitária. Os resultados obtidos são filtrados e apresentados ao usuário em formato de lista, contendo título, fonte e link da oportunidade. Essa abordagem foi intencionalmente simples e objetiva, priorizando a confiabilidade das respostas em detrimento de um comportamento conversacional complexo.
