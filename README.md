@@ -57,7 +57,7 @@ No entanto, para atender às restrições críticas de baixo custo, manutenção
 
 Em vez de web scraping (que é instável) ou plataformas complexas (como Rasa), o protótipo final utiliza um LLM (Google Gemini) "trancado" para ler apenas de um conjunto de fontes de dados em tempo real (22 Feeds RSS). Esta abordagem garante que as respostas sejam sempre atuais, baseadas em fontes concretas e livres de "alucinações", ao mesmo tempo que permite a publicação gratuita via Streamlit Cloud. 
 
-## Resultados: Solução Final
+# Resultados: Solução Final
 A solução final desenvolvida pelo grupo foi um chatbot baseado no modelo Gemini, integrado ao Google Alertas, projetado para identificar e disponibilizar oportunidades acadêmicas de maneira automática e confiável. A escolha dessa arquitetura se deu por dois motivos principais: a necessidade de reduzir o risco de alucinações por parte do modelo de linguagem e a busca por uma solução sustentável e de baixo custo, alinhada às restrições da startup parceira Inex.
 
 Durante o processo de implementação, a ferramenta foi configurada para monitorar alertas do Google vinculados a palavras-chave específicas relacionadas a pesquisa, bolsas, mestrado, doutorado e extensão universitária. Os resultados obtidos são filtrados e apresentados ao usuário em formato de lista, contendo título, fonte e link da oportunidade. Essa abordagem foi intencionalmente simples e objetiva, priorizando a confiabilidade das respostas em detrimento de um comportamento conversacional complexo.
@@ -81,4 +81,38 @@ Com base nessas devolutivas, foram aplicados ajustes incrementais na interface e
 Assim, a solução final se caracteriza por ser um protótipo funcional, confiável e escalável, que prioriza a precisão informacional e abre espaço para iterações futuras, nas quais técnicas mais avançadas de NLP e classificação poderão ser incorporadas sem comprometer a estabilidade do sistema.
 
 Foi realizada, por fim, uma nova reunião com a Inex, para entrega da solução, demonstração e passagem de conhecimento.
+
+# Proposta da disciplina 
+
+
+# Proposta da disciplina
+## Ementa
+Desenvolvimento de Ações de Extensão. Resolução de problemas. Levantamento de requisitos (Visita técnica). Modelagem. Banco de Dados. Desenvolvimento de aplicações Web/Desktop (Prática Profissional Supervisionada). Controle de Versão.
+ 
+## Objetivos
+### Objetivo Geral:
+
+Oportunizar a vivência prática-profissional em modelagem, criação e organização de bases de dados, mediante à aplicação dos conhecimentos adquiridos durante o curso em problemas reais identificados.
+
+### Objetivos Específicos:
+
+Identificar e realizar o mapeamento de demandas e necessidades da comunidade local;
+
+Analisar o objeto de estudo, definido por meio da identificação das demandas, propondo possíveis soluções ou novas ideias que articulem temas e conteúdos apresentados ao longo do curso;
+
+Implementar e testar a solução proposta junto à comunidade local e redigir o relatório do projeto.
+
+# Informação Sobre Carga Horária De Extensão (51h de projeto + 8H atividades com a comunidade)
+A ação de extensão será desenvolvida articulando os conteúdos da ementa com a aplicabilidade desse conteúdo em benefício da sociedade. É o momento que o estudante irá mobilizar conhecimentos, habilidades e atitudes para planejar, executar e comprovar a execução de uma ação diretamente vinculada aos conteúdos aprendidos na disciplina.
+
+Nesta disciplina, as atividades de extensão serão desenvolvidas seguindo as diretrizes específicas dos enunciados das atividades e avaliações elaboradas pelo professor especialista. Tais diretrizes estão disponíveis no AVA UFMS de oferta da disciplina e todo o acompanhamento no desenvolvimento das ações será realizado pelo professor tutor.
+ 
+# Título Do Projeto De Extensão
+Programa de Extensão UFMS Digital
+ 
+# Protocolo De Submissão Da Proposta No Sigproj
+95DX7.200525
+ 
+# Nome Do Coordenador Da Ação
+Daiani Damm Tonetto Riedner
 
